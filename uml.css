@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero{
+    background: #CCC;
+}
+
+#ventajas{
+    background: #f3e930;
+}
+
+#bloque{
+    background: #1773e4;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+}
